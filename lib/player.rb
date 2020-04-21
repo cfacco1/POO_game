@@ -27,7 +27,7 @@ class Player
 
 	def attacks (victim)
 		damage = compute_damage
-		puts "le joueur #{@name} attaque le joueur #{@victim}"
+		puts "le joueur #{@name} attaque le joueur #{victim.name}"
 		puts "Il lui inflige #{damage} points de dommages"
 
 		victim.gets_damage(damage)
